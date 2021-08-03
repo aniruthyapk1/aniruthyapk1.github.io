@@ -1,44 +1,84 @@
-h1{
-    font-family: Helvetica;
-    font-size: 100px;
-    color:khaki;
+header {
+  background-color: #10162f;
+  padding: 1%;
+}
+
+header h1,h3{
     text-align: center;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
-}
-
-h2.brushes{
-    font-family: Helvetica;
-    font-size: 32px;
     color:white;
-    font-weight: bold;
-    background-color:mediumspringgreen;
 }
 
-h2.frames{
-    font-family: Helvetica;
-    font-size: 32px;
-    color:white;
-    font-weight: bold;
-    background-color:lightcoral;
+header h1{
+    font-family: Merriweather;
+    font-size: 50px;
+    position: relative;
+    left: 80px;
+    text-align:center;
+    font-weight:bold;
+    opacity: .9;
 }
 
-h2.paint{
-    font-family: Helvetica;
-    font-size: 32px;
-    color:white;
-    font-weight: bold;
-    background-color:skyblue;
+header h3{
+    font-family: Overpass;
+    position: relative;
+    top: 20px;
+    opacity: .9;
 }
 
- main {
-    font-family: Helvetica;
- }
+main h2{
+    text-align: center;
+    font-family: Overpass;
+}
 
- a {
-     color: teal;
-     font-weight: bold;
- }
+.one {
+    font-family: serif;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 5rem;
+    padding-right: 60rem;
+}
+
+.example1{
+    font-family: serif;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    margin-left: 40rem;
+    padding: 1rem;
+    padding-right: 30rem;
+    background-color:#211E2F;
+    line-height: 40px;
+}
+
+.grey{
+    color: grey;
+}
+
+.table1{
+    font-family: serif;
+    font-size: 24px;
+    padding: 2rem;
+    left: 20rem;
+    position:relative;
+    margin-right: 40rem;  
+    border-style: solid;
+    border-color: grey;
+    background-color: #211E2F;
+   
+}
 
 
+.table1 th{
+    background-color: grey;
+    color: white;
+    opacity: .9;
+}
 
-
+.table1 tbody{
+    color: white;
+    opacity: .9;
+    font-family: Merriweather;
+    font-size: 18px;
+    text-indent: 20px;
+}
